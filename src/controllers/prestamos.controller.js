@@ -23,6 +23,7 @@ export const postPrestamo = async (req, res) => {
     data: {
       usuarioId: req.usuario.id,
       libroId,
+      fechaInicio: new Date
     },
   });
 
